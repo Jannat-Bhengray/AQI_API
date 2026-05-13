@@ -7,7 +7,26 @@ An end-to-end Machine Learning + FastAPI project that predicts:
 
 using environmental and regional air quality data.
 
- 
+ # Project Structure
+
+```bash
+AQI-Prediction-API/
+│
+├── main.py
+├── api_model.py
+├── requirements.txt
+├── README.md
+│
+├── models/
+│   ├── reg_model.pkl
+│   ├── clf_model.pkl
+│   ├── le_state.pkl
+│   ├── le_area.pkl
+│   └── le_pollutant.pkl
+│
+└── dataset/
+    └── indian_air_quality_dataset_10000.xlsx
+```
 
 # Tech Stack
 
